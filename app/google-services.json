@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "47018674788",
+    "firebase_url": "https://vetdata-f7cd7-default-rtdb.firebaseio.com",
+    "project_id": "vetdata-f7cd7",
+    "storage_bucket": "vetdata-f7cd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47018674788:android:cf06fdf939110df033ad71",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47018674788-or10l30td8p89ahgu91ra030l2rq9r6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN6hFk5YES1c0kzoSL4FdVn6exxDWNaqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47018674788-or10l30td8p89ahgu91ra030l2rq9r6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47018674788:android:510e82d0a57fbc0c33ad71",
+        "android_client_info": {
+          "package_name": "com.example.vet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47018674788-or10l30td8p89ahgu91ra030l2rq9r6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN6hFk5YES1c0kzoSL4FdVn6exxDWNaqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47018674788-or10l30td8p89ahgu91ra030l2rq9r6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47018674788:android:ee4d69689302897333ad71",
+        "android_client_info": {
+          "package_name": "com.example.vetproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47018674788-or10l30td8p89ahgu91ra030l2rq9r6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN6hFk5YES1c0kzoSL4FdVn6exxDWNaqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47018674788-or10l30td8p89ahgu91ra030l2rq9r6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

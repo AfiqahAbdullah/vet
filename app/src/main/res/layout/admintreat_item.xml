@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:text="Date"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/petname"
+            android:text="Pet Name"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/date"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vetname"
+            android:text="Veterinarian In-Charge"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/petname"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/custIC"
+            android:text="Pet Owner I/C"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/vetname"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/start_time"
+            android:text="Start Time Treatment"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/custIC"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/end_time"
+            android:text="End Time Treatment"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/start_time"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/treatment"
+            android:text="Service/Treatment Received"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/end_time"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/medicine"
+            android:text="Medicine Description"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/treatment"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/payment"
+            android:text="Total Payment"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_below="@+id/medicine"
+            android:layout_marginLeft="10dp"/>
+
+
+        <LinearLayout
+            android:layout_below="@+id/payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btnEdit"/>
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btnDelete"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Harmony Veterinary Clinic</string>
+    <string-array name="treatment">
+        <item>Vaccination</item>
+        <item>Consultation and Check-Up</item>
+        <item>Ultrasound</item>
+        <item>X-Ray</item>
+        <item>Surgey</item>
+        <item>Surgey and Warded</item>
+        <item>Dewormer</item>
+        <item>Bathing and Grooming</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Guinea pig</item>
+        <item>Hamster</item>
+        <item>Rabbit</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string name="my_text1">It is our mission to treat each pet as if they are a member of our own family. Our veterinary clinic is a health and wellness hospital for the pets and their owners."</string>
+    <string name="my_text2">The clinic offers a range of on-site services from wellness exams, surgery, vaccinations to nutritional and behavioural consultations.</string>
+    <string name="my_text3">Please feel free to contact us with any questions or book an appointment – we are here to help!</string>
+    <string name="my_text4"><u>Our Details:</u></string>
+    <string name="my_text5">Jalan Pasir Puteh
+18500 Machang
+Kelantan</string>
+    <string name="my_text6">Phone: +609 - 9752 533</string>
+    <string name="my_text7">Fax:	+609 - 9752 470</string>
+    <string name="my_text8">Email: harmonyclinic@gmail.com.my</string>
+    <string name="title_activity_gps_page">gps_page</string>
+</resources>
